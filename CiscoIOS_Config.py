@@ -1,10 +1,8 @@
 """
-1.  This scripts pulls in switches from the DCSD_Network_Switch_Report csv file,  SSHs into each and configures the commands in the config_commands variable.
+1.  This scripts pulls in switches from the list1 csv file,  SSHs into each and configures the commands in the config_commands variable.
 
-2.  The DCSD_Network_Switch_Report.csv was downloaded from Solarwinds and only contains the switches under the "Switches" group within Solarwinds.  This .csv does not include any datacenter switches.  The last download of this file was on 8/21/17.
-	a. DCSD_Network_Switch_Report lives in the C:\Python27 directory.
-	
-3.  Library used is netmiko and this script utilizes the net_connect.send_config_set function.
+
+2.  Library used is netmiko and this script utilizes the net_connect.send_config_set function.
 
 --  Version 1.0
 --  Created by:  Dustin Bench, 8/25/17 
