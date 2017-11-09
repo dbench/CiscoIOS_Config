@@ -58,4 +58,3 @@ def ios_conf():
     print "\n\n"
     print ">>>>>>>>>>>>>>>>>>>>>>>Script has completed.  Good Bye<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
 
-ios_conf()
